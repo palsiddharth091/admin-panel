@@ -1,0 +1,244 @@
+.menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+}
+
+.line {
+    fill: none;
+    stroke: white;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+
+.line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+}
+
+.line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+
+.opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+}
+
+.opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+}
+
+.opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+}
+
+.ver-nav{
+    color: white;
+    border-bottom: 2px white;
+    margin: 0;
+    padding: 1.28rem;
+    height: fit-content;
+}
+p{
+    text-align: center;
+}
+.font-r{
+    font-size: 1.5rem;
+}
+.font-c{
+    color: #ff0055;
+}
+.font-r{
+    color: white;
+}
+.font, .font-r{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.navbar-head{
+    height: 90px;
+}
+.navbar-h{
+    background-color: #ff0055;
+}
+.navbar-v{
+    margin: 0;
+    width: 19rem;
+    height: 45.2rem;
+    background-color: #ff0055;
+    
+}
+.inner-div{
+    float: inline-start;
+    margin-top: 5px;
+    
+}
+.detail{
+    overflow: scroll;
+    height: 33rem;
+}
+.center {
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    float: right;
+}
+.ver-nav-h:hover{
+    background-color: #fff;
+    transition: .8s;
+}
+.ver-nav-h:hover .font{
+    
+    transition: .5s;
+    color: #ff0055;
+}
+
+.form-input {
+    width: 350px;
+    padding: 20px;
+    background: #fff;
+
+}
+.form-input img {
+    width: 100%;
+    display: none;
+    margin-bottom: 30px;
+}
+.form-input input {
+    display: none;
+}
+.head{
+    padding: 1rem;
+    margin-top: 1.67rem;
+}
+.form-input label {
+    display: block;
+    width: 45%;
+    height: 45px;
+    margin-left: 25%;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: Uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.preview{
+    height: 200px;
+    width: 200px;
+    border: 2px black solid;
+    margin-top: 20px;
+}
+.inner-nav{
+    display: block;
+    height: fit-content;
+}
+.bton{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 1rem;
+}
+.up-dl-btn{
+    margin-top: 20px;
+}
+.g{
+    background: green;
+}
+.r{
+    background: red;
+}
+.nav-hd{
+    display: inline-block;
+    margin-left: 10px;
+}
+.nav-ico{
+    height: 25px;
+    width: 25px;
+}
+.nav-ico1 {
+    height:35px;
+    width: 35px;
+    margin-right: 10px;
+}
+.contact{
+    margin: 1.75rem 0;
+}
+.in-div-hdg{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+.inpt{
+    margin-left: 10px;
+    height: 2.6rem;
+    width: 20rem;
+}
+.cr{
+    text-align: center;
+}
+.name-int{
+    margin-bottom: 3rem;
+    padding: 0;
+}
+.tagline-int{
+    height: 200px;
+}
+.mgn{
+    margin-top: 30px;
+}
+.ht{
+    height: 33rem;
+    overflow: scroll;
+}
+.ver-nav-a{
+    text-decoration: none;
+}
+.ht-1{
+     height: 38.5rem;
+     overflow: scroll;
+}
+.input-pricing{
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.price-hdg{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        overflow: hidden;
+    }
+}
